@@ -1,0 +1,31 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+request.log
+error.log
+
+# Dependency directory
+node_modules
+Pods
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.DS_Store
+.idea
+.vscode
+
+build
+
+.env
+quarantineListIp.json
+serviceAccountKey.json
+
+dnevnikAutoApp/images/selectorRecords/dark/Заметки/Алгоритмы.txt
+dnevnikAutoApp/images/selectorRecords/dark/Заметки/Приложение DarkFlex IOS.txt
+dnevnikAutoApp/images/selectorRecords/dark/Заметки/Сборка EXPO.txt
+dnevnikAutoApp/images/selectorRecords/dark/Заметки/Сервер.txt
+dnevnikAutoApp/images/selectorRecords/dark/Заметки/СерверАвтоДневник.txt
+dnevnikAutoApp/images/selectorRecords/dark/Заметки/Установка сервера.txt
