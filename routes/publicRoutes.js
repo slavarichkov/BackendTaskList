@@ -19,7 +19,7 @@ const {
 //Роуты
 router.get('/get-tasks/:deviceId', getTasksValidation, getTasks); 
 router.post('/create-task/:deviceId', createTaskValidation, createTask); 
-router.put('/update-task/:deviceId', updateTaskValidation, updateTask); 
+router.patch('/update-task/:deviceId', updateTaskValidation, updateTask); 
 router.delete('/remove-task/:deviceId', removeTaskValidation, removeTask); 
 
 module.exports = router;

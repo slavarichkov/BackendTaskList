@@ -71,13 +71,7 @@ async function removeTask(req, res, next) {
     const { _id } = req.body;
 
     try {
-        const task = await TaskModel.findById(_id);
-
-        if (!task) {
-            throw new BAD_REQUEST_M('Задание не найдено')
-        }
-
-        await task.remove();
+        await TaskModel.findByIdAndRemove(_id)
 
         res.status(200).send({ message: "Задание успешно удалено" });
     } catch (error) {
