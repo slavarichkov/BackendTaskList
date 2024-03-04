@@ -24,6 +24,10 @@ const taskSchema = new mongoose.Schema({
   isDone: {
     type: Boolean,
     required: true
+  },
+  isPrivate: {
+    type: Boolean,
+    required: true
   }
 });
 
